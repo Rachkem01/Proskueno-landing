@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+}
+
+li{
+  font-family: 'Roboto';
+}
+
+.about-lorem{
+  line-height: 32px;
+}
