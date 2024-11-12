@@ -13,10 +13,7 @@ body{
   background-color: #fff;
 }
 
-li{
-  font-family: 'Roboto';
-}
-
-.about-lorem{
-  line-height: 32px;
+nav a.active{
+border:2px solid white;
+padding-bottom: 3px;
 }

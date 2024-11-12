@@ -1,18 +1,11 @@
-
-'use client'
-
 import React from 'react'
-import Nav from '@/components/Nav'
-import Home from './home/page'
-import Home1 from './Home1/page'
-const App = () => {
+import Home from '@/app/home/page'
+const page = () => {
   return (
-    <div >
-  
-    <Home />
-    <Home1/>
+    <div>
+   <Home/> 
     </div>
   )
 }
 
-export default App
+export default page
